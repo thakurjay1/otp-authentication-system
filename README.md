@@ -27,5 +27,3 @@ Device Fingerprint: The system detects logins from new devices and notifies the 
 Password Storage: Passwords are stored in the database using bcrypt hashing for security.
 Conclusion
 This project provides a robust authentication system with mobile number-based OTP and device fingerprinting, leveraging Spring Boot, MySQL, Redis, and Docker. It's designed to be highly scalable, secure, and easy to deploy with Docker.
-
-Feel free to fork, contribute, or create issues if you encounter any bugs or need additional features.
