@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: your-app-name
+    image: otp-auth-service
     container_name: auth-service
     ports:
       - "8080:8080"
@@ -20,8 +20,8 @@ services:
       SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQL8Dialect
       SPRING_REDIS_HOST: redis
       SPRING_REDIS_PORT: 6379
-      JWT_SECRET_KEY: your_secret_key
-      JWT_EXPIRATION_TIME: 86400000  # 1 day in milliseconds
+      JWT_SECRET_KEY: lkhkgjhfgdxfhjklmnbfghbvfyhjkoiuhgfrtyhjiuygf
+      JWT_EXPIRATION_TIME: 86400000
     networks:
       - otp-network
 
